@@ -1,0 +1,8 @@
+Total rows: 2
+Ready (>=70): 2
+Average score: 100
+Scoring: (passed_rules / total_rules) * 100. Ready threshold: >= 70.
+Blocking errors: 0
+
+Mini Excavator Maintenance Checklist for Small Contractors | score=100 | failed=none
+How to Choose the Right Skid Steer Bucket Size | score=100 | failed=none

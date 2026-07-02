@@ -1,0 +1,7 @@
+Total rows: 2
+Ready (>=70): 2
+Average score: 90
+Scoring: (passed_rules / total_rules) * 100. Ready threshold: >= 70.
+
+Mini Excavator Maintenance Checklist for Small Contractors | score=100 | failed=none
+TYPHON NAGA 4.0 Mini Excavator | score=80 | failed=keyword_in_slug,keyword_in_first_sentence

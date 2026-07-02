@@ -1,0 +1,13 @@
+{
+  "items": [],
+  "folders": [
+    {
+      "id": "18a6c10f-0ac1-4af6-8cce-86b12d3dfd14",
+      "owner_id": "be5e58a4-a179-4f71-a31a-d1b47f8f50d0",
+      "name": "production",
+      "is_active": true,
+      "created_at": "2026-05-04T05:03:35.441Z",
+      "updated_at": "2026-05-04T05:05:00.924Z"
+    }
+  ]
+}

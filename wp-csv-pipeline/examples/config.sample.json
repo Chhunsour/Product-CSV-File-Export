@@ -1,0 +1,26 @@
+{
+  "site_base_url": "https://denvor.com",
+  "default_category": "Construction",
+  "default_tags": ["denvor", "equipment", "seo"],
+  "min_words_post": 350,
+  "min_words_product": 600,
+  "internal_links": [
+    {
+      "url": "https://denvor.com/blog/mini-excavator-maintenance-guide",
+      "anchor": "mini excavator maintenance guide"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://wordpress.org/documentation/article/seo/",
+      "anchor": "WordPress SEO documentation"
+    }
+  ],
+  "brand_voice": "Direct, practical, confident.",
+  "cta_style": "Invite the reader to compare models and request a quote.",
+  "default_post_status": "publish",
+  "excerpt_min_chars": 150,
+  "excerpt_max_chars": 200,
+  "local_image_mode": "base_url",
+  "local_image_base_url": "https://cdn.denvor.com/uploads"
+}

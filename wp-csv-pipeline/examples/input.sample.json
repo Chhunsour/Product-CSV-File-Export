@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "post_type": "post",
+      "title": "Mini Excavator Maintenance Checklist for Small Contractors",
+      "focus_keyword": "mini excavator maintenance checklist",
+      "category": "Mini Excavator",
+      "tags": "maintenance, contractor tips",
+      "summary": "A practical checklist to keep mini excavators reliable and reduce downtime.",
+      "source_text": "Daily checks include fluid levels, track tension, grease points, and leak inspection. Weekly checks include filter cleaning and battery terminals. Monthly checks include hydraulic hose wear review and undercarriage cleaning.",
+      "internal_links": [
+        {
+          "url": "https://denvor.com/blog/excavator-safety-checks",
+          "anchor": "excavator safety checks"
+        }
+      ],
+      "external_links": [
+        {
+          "url": "https://www.osha.gov/",
+          "anchor": "OSHA guidance"
+        }
+      ],
+      "images": [
+        "https://denvor.com/wp-content/uploads/2026/02/maintenance-checklist-cover.webp",
+        "https://denvor.com/wp-content/uploads/2026/02/maintenance-checklist-steps.webp"
+      ],
+      "featured_image": "https://denvor.com/wp-content/uploads/2026/02/maintenance-checklist-cover.webp",
+      "publish_date": "2026-02-11T10:30:00Z"
+    },
+    {
+      "post_type": "product",
+      "title": "TYPHON NAGA 4.0 Mini Excavator",
+      "focus_keyword": "typhon naga 4.0 mini excavator",
+      "category": "Mini Excavator",
+      "tags": "mini excavator, yanmar, 4 ton",
+      "summary": "Heavy-duty 4-ton mini excavator configured for high uptime and operator comfort.",
+      "source_text": "The TYPHON NAGA 4.0 includes reinforced boom components, balanced hydraulics, and service-friendly access points.",
+      "internal_links": [
+        {
+          "url": "https://denvor.com/products/mini-excavators",
+          "anchor": "mini excavator lineup"
+        }
+      ],
+      "external_links": [
+        {
+          "url": "https://woocommerce.com/document/product-csv-importer-exporter/",
+          "anchor": "WooCommerce product import documentation"
+        }
+      ],
+      "featured_image": "./images/naga40-main.webp",
+      "images": [
+        "./images/naga40-main.webp",
+        "./images/naga40-side.webp",
+        "./images/naga40-cabin.webp"
+      ],
+      "gallery_images": [
+        "./images/naga40-side.webp",
+        "./images/naga40-cabin.webp"
+      ],
+      "sku": "TYPH-NAGA40",
+      "price": "23900",
+      "brand": "TYPHON",
+      "model": "NAGA 4.0",
+      "specs_bullets": [
+        "Operating weight: 4 ton class",
+        "Engine: Yanmar diesel",
+        "Hydraulic system tuned for trenching and grading",
+        "Cabin: enclosed with climate-ready layout"
+      ],
+      "gtin": "04476642736533",
+      "publish_date": "2026-02-11T11:00:00Z"
+    }
+  ]
+}

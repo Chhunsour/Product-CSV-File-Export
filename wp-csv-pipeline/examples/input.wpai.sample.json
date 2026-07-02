@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "title": "Mini Excavator Maintenance Checklist for Small Contractors",
+      "focus_keyword": "mini excavator maintenance checklist",
+      "category": ["Equipment Guides > Mini Excavator", "Maintenance"],
+      "tags": "mini excavator maintenance|contractor tips|service schedule",
+      "summary": "A practical maintenance checklist for compact excavators used by contractors.",
+      "source_text": "This checklist covers startup checks, fluid levels, track inspection, and service intervals.",
+      "internal_links": [
+        {
+          "url": "https://denvor.com/blog/compact-equipment-service-plan",
+          "anchor": "compact equipment service plan"
+        }
+      ],
+      "external_links": [
+        {
+          "url": "https://www.osha.gov/",
+          "anchor": "OSHA guidance"
+        }
+      ],
+      "featured_image": "https://cdn.denvor.com/blog/mini-excavator-checklist-cover.webp",
+      "images": [
+        "https://cdn.denvor.com/blog/mini-excavator-checklist-cover.webp",
+        "https://cdn.denvor.com/blog/mini-excavator-track-inspection.webp"
+      ],
+      "image_alts": [
+        "mini excavator maintenance checklist cover image",
+        "Track inspection step for compact excavator"
+      ],
+      "author": "Denvor Editorial",
+      "publish_date": "2026-02-11"
+    },
+    {
+      "title": "How to Choose the Right Skid Steer Bucket Size",
+      "focus_keyword": "skid steer bucket size guide",
+      "category": "Equipment Guides > Skid Steer",
+      "tags": ["skid steer", "bucket sizing", "jobsite planning"],
+      "summary": "Choose the correct bucket width and capacity based on material type and machine specs.",
+      "source_text": "Contractors should match bucket size to hydraulic flow, site clearance, and material density.",
+      "internal_links": [
+        {
+          "url": "https://denvor.com/blog/skid-steer-attachments-overview",
+          "anchor": "skid steer attachments overview"
+        }
+      ],
+      "external_links": [
+        {
+          "url": "https://www.iso.org/home.html",
+          "anchor": "ISO standards reference"
+        }
+      ],
+      "author": "Denvor Editorial",
+      "publish_date": "2026-02-11"
+    }
+  ]
+}
