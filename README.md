@@ -1,52 +1,95 @@
-# Workspace Catalog (Nuxt 3 + Supabase)
+<div align="center">
 
-A private, authenticated workspace catalog built with Nuxt 3, Supabase, and Tailwind CSS.
+# 📦 Product-CSV-File-Export
+### Workspace Catalog & WordPress / WooCommerce Product CSV Export Pipeline
 
-## Prerequisites
-- Node.js 18+
-- A Supabase project
+<p align="center">
+  <sub>Developed by <strong>Seng Chhunsour</strong></sub>
+</p>
 
-## 1) Supabase setup
+[![Author: Seng Chhunsour](https://img.shields.io/badge/Author-Seng%20Chhunsour-FF5A1F?style=flat-square&logo=github&logoColor=white)](https://github.com/Chhunsour)
+[![Nuxt 3](https://img.shields.io/badge/Nuxt-3.12-00DC82?style=flat-square&logo=nuxt.js&logoColor=white)](https://nuxt.com/)
+[![Vue 3](https://img.shields.io/badge/Vue-3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database%20%26%20Storage-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+
+</div>
+
+---
+
+A private, authenticated workspace catalog and automated e-commerce CSV pipeline built with **Nuxt 3, Supabase, Tailwind CSS, Sharp, and JSZip**. Supports transforming and generating WooCommerce/WordPress-compliant product CSVs with automated image optimization and archive packaging.
+
+## ✨ Features
+
+- 🔐 **Authenticated Workspace:** Protected routes, email authentication (magic link + password), and role-scoped admin controls.
+- 🗃️ **Private Bucket Storage:** Secure file attachment storage in private Supabase buckets accessed via time-limited signed URLs.
+- 📊 **WordPress / WooCommerce CSV Pipeline:** Built-in CLI and processing pipeline (`wp-csv-pipeline/cli.js`) to parse, validate, and export product catalogs into WooCommerce-ready CSV formats.
+- 🖼️ **Image Optimization:** Automated image resizing and processing via `sharp` before packaging.
+- 📝 **Markdown-Powered Documentation:** Safe markdown rendering with `markdown-it` avoiding unsafe raw HTML injection.
+
+## 🛠️ Prerequisites
+
+- **Node.js** 18+
+- **Supabase project**
+
+## 🚀 Setup & Installation
+
+### 1. Supabase Configuration
+
 1. Create a new Supabase project.
 2. In **Authentication → Providers**, enable **Email** (magic link + password).
-3. In **Authentication → Settings**, disable public signups.
-4. Create a user in **Authentication → Users** (set a password if you want to use password login).
-5. In **Authentication → URL Configuration**, add `http://localhost:3000/reset` to **Redirect URLs** (for password resets).
-5. Open **SQL Editor** and run the SQL in `supabase/schema.sql`.
+3. In **Authentication → Settings**, configure signup permissions.
+4. In **Authentication → URL Configuration**, add `http://localhost:3000/reset` to **Redirect URLs**.
+5. Open the **SQL Editor** and run `supabase/schema.sql`. This will:
+   - Create tables and Row Level Security (RLS) policies.
+   - Create the `workspace` private storage bucket.
+   - Restrict access so authenticated users can only view their own directory.
 
-This will:
-- Create tables and RLS policies
-- Create the `workspace` private storage bucket
-- Set storage policies so users can only access their own folder
+### 2. Configure Environment Variables
 
-## 2) Configure environment variables
-Copy `.env.example` to `.env` and fill in your Supabase details:
+Copy `.env.example` to `.env` and fill in your Supabase project credentials:
 
-```
+```bash
 SUPABASE_URL=your-project-url
 SUPABASE_KEY=your-anon-key
 ```
 
-Find these in **Project Settings → API**.
+### 3. Install & Run
 
-## 3) Install dependencies
-```
+```bash
+# Install dependencies
 npm install
-```
 
-## 4) Run the app
-```
+# Start local Nuxt development server
 npm run dev
+
+# Run WordPress / WooCommerce CSV pipeline CLI
+npm run wp:csv
 ```
 
-The app will be available at `http://localhost:3000`.
+The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
-## Usage
-- Visit `/login` and send yourself a magic link, sign in with password, or send a password reset link.
-- After logging in, you will be redirected to `/`.
-- Manage items and attachments in `/admin`.
+## 📦 Scripts
 
-## Notes
-- All routes are protected by auth middleware except `/login`.
-- File attachments are stored in the private `workspace` bucket and accessed with signed URLs.
-- Markdown is rendered with `markdown-it` and `html: false` to avoid raw HTML.
+```bash
+npm run dev         # start Nuxt 3 development server
+npm run build       # build production bundle
+npm run preview     # preview production build locally
+npm run wp:csv      # run the WooCommerce CSV export pipeline
+```
+
+---
+
+## 👤 Author & Developer
+
+**Developed by Seng Chhunsour**
+- **GitHub:** [@Chhunsour](https://github.com/Chhunsour)
+- **Repository:** [https://github.com/Chhunsour/Product-CSV-File-Export](https://github.com/Chhunsour/Product-CSV-File-Export)
+
+---
+
+## 📄 License
+
+This project is open-source under the MIT License.
